@@ -61,7 +61,7 @@ fun GreetingScreen(name: String) {
         ) {
             Icon(imageVector = Icons.Default.Home, contentDescription = "Favorite", tint = Color.White)
             Spacer(modifier = Modifier.width(8.dp))
-            Text(text = "Start", color = Color.White, fontSize = 18.sp, fontWeight = FontWeight.Bold)
+            Text(text = "Start Now", color = Color.White, fontSize = 18.sp, fontWeight = FontWeight.Bold)
         }
     }
 }
